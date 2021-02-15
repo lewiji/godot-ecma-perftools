@@ -11,9 +11,9 @@ Since the Godot ECMAscript module doesn't yet support profiling, this is a simpl
 ## Usage
 
 * In the class file of the function you want to profile:
-** import { measure } from "../plugins/PerformanceDecorators";
-** Add @measure decorator to functions you want to time
-** Run project in Godot
+    * import { measure } from "../plugins/PerformanceDecorators";
+    * Add @measure decorator to functions you want to time
+    * Run project in Godot
 
 The project will print timing information when that function is called to the Godot output.
 
